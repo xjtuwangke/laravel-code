@@ -1,0 +1,27 @@
+{
+    "name": "xjtuwangke/laravel-code",
+    "description": "",
+    "authors": [
+        {
+            "name": "xjtuwangke",
+            "email": "wangke85@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+        , "zendframework/zend-barcode": ">=2.0.0,<2.4"
+        , "zendframework/zend-validator": ">=2.0.0,<2.4"
+        , "endroid/qrcode": "1.*@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+            , "src/controllers"
+        ],
+        "psr-0": {
+            "Xjtuwangke\\LaravelCode\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

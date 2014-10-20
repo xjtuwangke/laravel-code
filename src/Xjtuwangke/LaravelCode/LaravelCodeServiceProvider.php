@@ -22,7 +22,7 @@ class LaravelCodeServiceProvider extends ServiceProvider {
 	{
 		$this->package('xjtuwangke/laravel-code');
 		//一维码二维码解码
-		//CodeController::registerRoutes();
+		CodeController::registerRoutes();
 	}
 
 	/**
